@@ -16,10 +16,12 @@ var liriArg = process.argv[2];
     movie();
 } else if (liriArg === "concert-this") {
     concert();
+} else if (liriArg === "do-what-it-says") {
+    getRandom();
 } else {
-    console.log("Please enter one of the following commands: spotify-this-song, movie-this, concert-this.");
+    console.log("Please enter one of the following commands: spotify-this-song, movie-this, concert-this, do-what-it-says.");
 }
-//BANDS IN TOWN
+//function to show Bands in town
 
 function concert(){
 
@@ -93,7 +95,7 @@ function movie() {
     };
 
     if (movieName === "") {
-        movieName = "Forrest" + "+" + "Gump"
+        movieName = "Mr." + "+" + "Nobody"
     };
 
     //run a request to the OMDB API with the specified movie
@@ -156,7 +158,7 @@ function song() {
 };
 
 //random fs function
-function concert() {
+function getRandom() {
 
     fs.readFile("random.txt", "utf8", function (error, data) {
         if (error) {
