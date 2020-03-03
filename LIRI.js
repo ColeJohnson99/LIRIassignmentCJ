@@ -33,7 +33,7 @@ function concert(){
             artist+=process.argv[i];
         }
     let bandsFig = "Bandsintown"
-        figlet(bandsFig, function(err, data) {
+        concert(bandsFig, function(err, data) {
             if (err) {
                 console.log('Something went wrong...');
                 console.dir(err);
