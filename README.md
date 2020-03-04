@@ -15,7 +15,13 @@ Instructions:
 3. *Important to type out 'Node' first in the command line, then the name of the file, then the command  you wish to run.  
     Commands:  *Must include hyphens in command*
         -To search Spotifys library: "spotify-this-song" + the name of desired song.  
-        -To search Bands in Town: "concert-this" + band name.
+        -To search Bands in Town: "concert-this" + artist/band name.
         -To search OMDB movie database: "movie-this" + movie title.  
 
-    Optional: Simply enter "node 'filename'" without a command if you wish to see all available commands.
+4. Note: If you wish to clone this app from github and run it yourself, you will need to supply your own .env file including working API keys for it to work.
+
+ Optional: Simply enter "node 'filename'" without a command if you wish to see all available commands.
+
+    Google Slides Presentation on bot functionality and features:
+
+        - https://docs.google.com/presentation/d/1A6jG8ZvAF4vPurgv1DAb27d0KoYQo2FKm2GDNgzYR6M/edit?usp=sharing
